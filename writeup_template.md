@@ -54,9 +54,10 @@ signs data set:
 #### 2. Include an exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. There are bar charts showing the distribution of training set, validation set and testing set.
-!["Visualization of training set"][image1]
-!["Visualization of validation set"][image2]
-!["Visualization of test set"][image3]
+
+![Visualization of training set][image1]
+![Visualization of validation set][image2]
+![Visualization of test set][image3]
 
 ### Design and Test a Model Architecture
 
