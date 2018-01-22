@@ -128,7 +128,7 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8]
 
-I think that classifying each image is an easy job, except for the fifth image. Because this image is a little.
+I think that classifying each image is an easy job if the model is good enough, because the traffic signs in all images are big and clear.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -142,8 +142,7 @@ Here are the results of the prediction:
 | Dangerous curve to the right	      	| No entry					 					|
 | Pedestrians							| General caution      							|
 
-
-The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%. However, the accuracy on the test set is nearly 92%. In the second, third, and fifth image, the traffic signs are covered with the digital watermark. Maybe it is the reason that why the model did poorly on the new test images.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
