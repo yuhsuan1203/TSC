@@ -142,13 +142,13 @@ Here are the results of the prediction:
 | Dangerous curve to the right	      	| No entry					 					|
 | Pedestrians							| General caution      							|
 
-The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%. However, the accuracy on the test set is nearly 92%. In the second, third, and fifth image, the traffic signs are covered with the digital watermark. Maybe it is the reason that why the model did poorly on the new test images.
+The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%. However, the accuracy on the test set is nearly 92%.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the 8th cell of the Ipython notebook.
 
-For all the image, the model is sure that all the predictions it makes are sure that this is a yield sign (probability of 1.0), and the image does contain a yield sign. The top five soft max probabilities were
+For the first image, the model is sure that this is a yield sign (probability of 1.000000), and the image does contain a yield sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        				| 
 |:---------------------:|:-----------------------------------------:| 
@@ -158,7 +158,7 @@ For all the image, the model is sure that all the predictions it makes are sure 
 | 0.00	      			| Speed limit (50km/h)						|
 | 0.00				    | Speed limit (60km/h)      				|
 
-For the second image ... 
+For the second image, the model is sure that this is a Children crossing sign (probability of 1.000000), but the image contains a Stop sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        				| 
 |:---------------------:|:-----------------------------------------:| 
@@ -168,7 +168,7 @@ For the second image ...
 | 0.00	      			| Speed limit (50km/h)						|
 | 0.00				    | Speed limit (60km/h)      				|
 
-For the third image ... 
+For the third image, the model is sure that this is a Right-of-way at the next intersection sign (probability of 0.943), and the image does contain a Right-of-way at the next intersection sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        				| 
 |:---------------------:|:-----------------------------------------:| 
@@ -178,7 +178,7 @@ For the third image ...
 | 0.004	      			| Beware of ice/snow						|
 | 0.001				    | Double curve			      				|
 
-For the fourth image ... 
+For the fourth image, the model is sure that this is a No entry sign (probability of 1.000000), however, the image contains a Dangerous curve to the right sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        				| 
 |:---------------------:|:-----------------------------------------:| 
@@ -188,7 +188,7 @@ For the fourth image ...
 | 0.00	      			| Speed limit (50km/h)						|
 | 0.00				    | Speed limit (60km/h)      				|
 
-For the fifth image ... 
+For the fifth image, the model is sure that this is a General caution sign (probability of 1.000000), and the image does contain a Pedestrians sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        				| 
 |:---------------------:|:-----------------------------------------:| 
@@ -197,6 +197,8 @@ For the fifth image ...
 | 0.00					| Speed limit (30km/h)						|
 | 0.00	      			| Speed limit (50km/h)						|
 | 0.00				    | Speed limit (60km/h)      				|
+
+As seen above, the performance of this model is so poor that I should tune the parameters to meet the better result.
 
 
 
