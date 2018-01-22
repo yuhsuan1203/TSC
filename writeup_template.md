@@ -94,7 +94,7 @@ My final model consisted of the following layers:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an AdamOptimizer , set batch size to 128 and number of epochs to 10 , and also let learning rate equal to 0.001. 
+To train the model, I used an AdamOptimizer , set batch size to 128 and number of epochs to 20 , and also let learning rate equal to 0.001. 
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
@@ -131,13 +131,13 @@ The first image might be difficult to classify because ...
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Image			        				|     Prediction	        					| 
+|:-------------------------------------:|:---------------------------------------------:| 
+| Yield		      						| Yield		  									| 
+| Stop     								| Children crossing 							|
+| Right-of-way at the next intersection	| Right-of-way at the next intersection			|
+| Dangerous curve to the right	      	| No entry					 					|
+| Pedestrians							| General caution      							|
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
