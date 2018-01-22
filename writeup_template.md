@@ -1,9 +1,6 @@
 # **Traffic Sign Recognition** 
 
 ## Writeup
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
 ---
 
 **Build a Traffic Sign Recognition Project**
@@ -95,7 +92,7 @@ My final model consisted of the following layers:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an AdamOptimizer, set batch size to 128 and number of epochs to 20 , and let learning rate equal to 0.001. 
+To train the model, I used an AdamOptimizer at a learning rate of 0.001, set batch size to 128 and number of epochs to 20 , and let learning rate equal to 0.001. 
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
@@ -106,9 +103,7 @@ My final model results were:
 
 They were calculated by using tensorflow function tf.equal() and tf.reduce_mean() in the 6th code cell.
 
-* Why did you believe it would be relevant to the traffic sign application?
-
-I chose a well known architecture known as Lenet-5. Because the grid of the image contains simple shape like diagonal lines, .The final model's accuracy on the training set was nearly 100%, and both the accuracy on validation set and test set were beyond 90%. However, due to the loss, I think it may be a little overfitting. 
+I chose a well known architecture known as Lenet-5 and tuned the hyperparamters such as epochs, learning rate, and batch size to improve the performance. I chose it because the grid of the image contains simple shapes like diagonal lines or circles just like data in the MNIST dataset. The final model's accuracy on the training set was nearly 100%, and both the accuracy on validation set and test set were beyond 90%. However, due to the loss, I thought it to be overfitting. What I did to overcome this problem was to use dropout layers, however, it seemed that the effect was not good enough, so I still used the CNN without dropout layers. I think that the model can be much better if I tune the parameter and use dropout layers more precisely. But until now, I have not figured out the solution yet. 
  
 
 ### Test a Model on New Images
