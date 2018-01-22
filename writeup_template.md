@@ -146,20 +146,60 @@ The model was able to correctly guess 2 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+For the first image, the model is sure that this is a yield sign (probability of 1.0), and the image does contain a yield sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        				| 
 |:---------------------:|:-----------------------------------------:| 
 | 1.00         			| Yield   									| 
-| 0.00     				| U-turn 									|
-| 0.00					| Yield										|
-| 0.00	      			| Bumpy Road							 	|
-| 0.00				    | Slippery Road      						|
+| 0.00     				| Speed limit (20km/h) 						|
+| 0.00					| Speed limit (30km/h)						|
+| 0.00	      			| Speed limit (50km/h)						|
+| 0.00				    | Speed limit (60km/h)      				|
 
 
 For the second image ... 
 
+| Probability         	|     Prediction	        				| 
+|:---------------------:|:-----------------------------------------:| 
+| 1.00         			| Children crossing   						| 
+| 0.00     				| Speed limit (20km/h) 						|
+| 0.00					| Speed limit (30km/h)						|
+| 0.00	      			| Speed limit (50km/h)						|
+| 0.00				    | Speed limit (60km/h)      				|
+
+For the third image ... 
+
+| Probability         	|     Prediction	        				| 
+|:---------------------:|:-----------------------------------------:| 
+| 0.943        			| Right-of-way at the next intersection   	| 
+| 0.026     			| General caution	 						|
+| 0.022					| Pedestrians								|
+| 0.004	      			| Beware of ice/snow						|
+| 0.001				    | Double curve			      				|
+
+For the fourth image ... 
+
+| Probability         	|     Prediction	        				| 
+|:---------------------:|:-----------------------------------------:| 
+| 1.00         			| No entry   								| 
+| 0.00     				| Speed limit (20km/h) 						|
+| 0.00					| Speed limit (30km/h)						|
+| 0.00	      			| Speed limit (50km/h)						|
+| 0.00				    | Speed limit (60km/h)      				|
+
+For the fifth image ... 
+
+| Probability         	|     Prediction	        				| 
+|:---------------------:|:-----------------------------------------:| 
+| 1.00         			| General caution   						| 
+| 0.00     				| Speed limit (20km/h) 						|
+| 0.00					| Speed limit (30km/h)						|
+| 0.00	      			| Speed limit (50km/h)						|
+| 0.00				    | Speed limit (60km/h)      				|
+
+
+
+
+
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
-
-
