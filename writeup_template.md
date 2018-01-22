@@ -38,7 +38,7 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! My project code is attached in the same zip file.
+You're reading it! And my project code is included in the same zip file.
 
 ### Data Set Summary & Exploration
 
