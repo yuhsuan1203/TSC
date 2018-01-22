@@ -19,9 +19,9 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
+[image1]: ./Other/visualization1.png "Visualization1"
+[image2]: ./Other/visualization2.png "Visualization2"
+[image3]: ./Other/visualization3.png "Visualization3"
 [image4]: ./TestImage/001.jpg "Traffic Sign 1"
 [image5]: ./TestImage/002.jpg "Traffic Sign 2"
 [image6]: ./TestImage/003.jpg "Traffic Sign 3"
@@ -54,7 +54,9 @@ signs data set:
 #### 2. Include an exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. There are bar charts showing the distribution of training set, validation set and testing set.
-The bar charts are showed in the ipython notebook.
+!["Visualization of training set"][image1]
+!["Visualization of validation set"][image2]
+!["Visualization of test set"][image3]
 
 ### Design and Test a Model Architecture
 
