@@ -188,7 +188,7 @@ For the fourth image, the model is sure that this is a No entry sign (probabilit
 | 0.00	      			| Speed limit (50km/h)						|
 | 0.00				    | Speed limit (60km/h)      				|
 
-For the fifth image, the model is sure that this is a General caution sign (probability of 1.000000), and the image does contain a Pedestrians sign. The top five soft max probabilities were
+For the fifth image, the model is sure that this is a General caution sign (probability of 1.000000), but the image contains a Pedestrians sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        				| 
 |:---------------------:|:-----------------------------------------:| 
