@@ -44,8 +44,7 @@ You're reading it! And my project code is included in the same zip file.
 
 #### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-I used the numpy library to calculate summary statistics of the traffic
-signs data set:
+I used the numpy library to calculate summary statistics of the traffic signs data set:
 
 * The size of training set is 34799
 * The size of the validation set is 4410
@@ -55,7 +54,7 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. There are bar charts showing the distribution of training set, validation set and testing set.
+Here is an exploratory visualization of the data set. Below are bar charts showing the distribution of training set, validation set and testing set.
 
 ![Visualization of training set][image1]
 ![Visualization of validation set][image2]
