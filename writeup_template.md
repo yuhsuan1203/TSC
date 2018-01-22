@@ -68,7 +68,6 @@ How I preprocessed the image data was to normalize the images and convert them t
 
 ##### Before
 ![Before][image9]
-
 ##### After
 ![After][image10]  
 
