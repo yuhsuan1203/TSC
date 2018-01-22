@@ -53,7 +53,8 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing the distribution of training set, validation set and testing set.
+Here is an exploratory visualization of the data set. There are bar charts showing the distribution of training set, validation set and testing set.
+The bar charts are showed in the ipython notebook.
 
 ![alt text][image1]
 
