@@ -34,11 +34,13 @@ The goals / steps of this project are the following:
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
 ---
+
 ### Writeup / README
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
 You're reading it! And my project code is included in the same zip file.
+
 
 ### Data Set Summary & Exploration
 
@@ -59,6 +61,7 @@ Here is an exploratory visualization of the data set. Below are bar charts showi
 ![Visualization of training set][image1]
 ![Visualization of validation set][image2]
 ![Visualization of test set][image3]
+
 
 ### Design and Test a Model Architecture
 
@@ -89,7 +92,6 @@ My final model consisted of the following layers:
 | Fully connected		| 120 to 84        								|
 | Fully connected		| 84 to 43     									|
 | Softmax				| 43 possible final outputs						|
- 
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
@@ -114,7 +116,7 @@ If a well known architecture was chosen:
 * Why did you believe it would be relevant to the traffic sign application?
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
 
-I chose a well known architecture called Lenet-5.
+I chose a well known architecture called Lenet-5. Because the grid of the image contains simple shape like diagonal lines, .
  
 
 ### Test a Model on New Images
@@ -126,7 +128,7 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8]
 
-The fourth and fifth image might be difficult to classify because they are either not or not.
+I think that classifying each image is an easy job, except for the fifth image. Because this image is a little.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -156,7 +158,6 @@ For all the image, the model is sure that all the predictions it makes are sure 
 | 0.00					| Speed limit (30km/h)						|
 | 0.00	      			| Speed limit (50km/h)						|
 | 0.00				    | Speed limit (60km/h)      				|
-
 
 For the second image ... 
 
@@ -197,8 +198,6 @@ For the fifth image ...
 | 0.00					| Speed limit (30km/h)						|
 | 0.00	      			| Speed limit (50km/h)						|
 | 0.00				    | Speed limit (60km/h)      				|
-
-
 
 
 
